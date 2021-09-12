@@ -1,0 +1,34 @@
+.home-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p {
+    margin: 100px 10px 20px 10px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-style: 'Extra-bold';
+    font-weight: 800;
+    font-size: 35px;
+    background-color: black;
+    color: transparent;
+    text-shadow: 0px 1px 2px #55848A;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    width: 500px;
+}
+
+.body-p {
+    margin: 0;
+    margin-left: 10px;
+}

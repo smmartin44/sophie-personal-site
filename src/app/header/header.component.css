@@ -1,0 +1,55 @@
+.wrapper {
+    background-color: #95E4EF;
+    height: 156px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-style: 'Extra-bold';
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0;
+    width: 190px;
+    line-height: 45px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    color: #55848A
+}
+
+.heading {
+    margin-right: 100px;
+}
+
+.menu-button {
+    background-color: #55848A;
+    border: transparent 0px solid;
+    border-radius: 30px;
+    width: 218px;
+    height: 54px;
+    margin: 51px 10px 0 5px;
+}
+
+.button-text {
+    font-family: 'Poppins', sans-serif;
+    font-style: 'Extra-bold';
+    font-weight: 800;
+    font-size: 20px;
+    color: #95E4EF;
+    text-shadow: 0px 1px 2px black;
+    text-align: center;
+    height: 54px;
+    padding-top: 17px;
+}
+
+.navbar .nav > li > a, .navbar .nav > li > a::first-letter {
+    color: #95E4EF;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover:first-letter { 
+    color: #E5E5E5;                      
+}
+
+.active {
+    color: black;   
+  }
